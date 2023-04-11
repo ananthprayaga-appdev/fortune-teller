@@ -6,11 +6,11 @@ class EarthController < ApplicationController
 
     5.times do
       another_number = rand(1...100)
-      
+
       @array_of_numbers.push(another_number)
     end
 
-    render({ :template => "au_naturale/taurus.html.erb" })
+    render({ :template => "nature_templates/taurus.html.erb" })
   end
 
   def maiden
@@ -21,7 +21,7 @@ class EarthController < ApplicationController
 
     5.times do
       another_number = rand(1...100)
-      
+
       @array_of_numbers.push(another_number)
     end
 
@@ -35,7 +35,7 @@ class EarthController < ApplicationController
 
     5.times do
       another_number = rand(1...100)
-      
+
       @array_of_numbers.push(another_number)
     end
 
